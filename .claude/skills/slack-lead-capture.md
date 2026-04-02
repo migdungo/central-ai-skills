@@ -191,7 +191,7 @@ Based on the guide's rules:
 
 **Fallback defaults** (if pipeline guide has no rules yet):
 - `gtm-new-trial-info` → Sales pipeline, stage: Trial Started (`qualifiedtobuy`)
-- `central-new-signups` → Sales pipeline, stage: New Lead (`appointmentscheduled`)
+- `central-new-signups` → Sales pipeline, stage: New Signups (`3435878089`)
 - `customer-feedback` → Sales pipeline, stage: Qualified (`1743936187`)
 - `google-calendar` → Sales pipeline, stage: Demo Scheduled (`1743510241`)
   - If contact already has a deal in the Sales pipeline, update its stage to Demo Scheduled

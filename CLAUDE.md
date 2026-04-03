@@ -56,8 +56,8 @@ When a trigger occurs, route to the skill or agent that owns it. CLAUDE.md never
 | Product question | `central-ai-product-expert` skill | Active |
 | Pipeline stage decision | `hs-pipeline-manager` skill | Active |
 | Email/note drafting style | `writing-voice` skill | Active |
-| Lead capture from Slack/calendar/email | `leads-specialist` agent | To revise |
-| Pipeline monitoring / outreach / property management | `customer-success-specialist` agent | To revise |
+| Lead capture from Slack/calendar/email | `leads-specialist` agent | Active |
+| Pipeline monitoring / outreach / property management | `customer-success-specialist` agent | Active |
 | Onboarding new customer or trial | `onboarding-playbook` skill | Active |
 | When to call vs. email vs. SMS | `channel-playbook` skill | Active |
 | Briefing format and reporting rules | `project-manager` skill | Active |
@@ -75,8 +75,8 @@ When a trigger occurs, route to the skill or agent that owns it. CLAUDE.md never
 | `channel-playbook` | Skill | Active | Call-first priority, channel routing by stage |
 | `onboarding-playbook` | Skill | Active | Trial + paid onboarding flows |
 | `project-manager` | Skill | Active | Briefing format, reporting rules, priority definitions |
-| `leads-specialist` | Agent | To revise | Slack/calendar/email → HubSpot (capture only) |
-| `customer-success-specialist` | Agent | To revise | Outreach, pipeline hygiene, property management |
+| `leads-specialist` | Agent | Active | Slack/calendar/email → HubSpot (capture only) |
+| `customer-success-specialist` | Agent | Active | Outreach, pipeline hygiene, property management |
 | `marketing-resources-library` | Doc | Placeholder | Videos, guides, onboarding links |
 
 ---
